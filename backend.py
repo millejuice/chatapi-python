@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import openai
 
-openai.api_key = "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"
+openai.api_key = "당신의 api-key"
 
 
 class SloganGenerator:
